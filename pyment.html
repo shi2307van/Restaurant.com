@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment</title>
+  <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="restaurant.css" type="text/css">
+  <script src="order.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+
+</script>
+</head>
+<body class="orderbody">
+
+<form id="pay" method="POST">
+  <div class="container cont">
+      <div class="row">
+          <h3 class="orderh3">PAYMENT DETAILS</h3>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col-sm-12">
+              <label for="crdno"><b><i>CARD NUMBER : </b></i></label>
+              <input type="text" class="form-control sel" id="crdno" placeholder="Enter Your Card Number" onblur="validatecdnumber()">
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-sm-8">
+              <label for="edate"><b><i>EXPIRATION DATE : </b></i></label>
+              <input type="date" class="form-control sel" id="edate">
+          </div>
+
+          <div class="col-sm-4">
+              <label for="cvcode"><b><i>CV CODE : </i></b></label>
+              <input type="text" class="form-control forml" id="cvcode" placeholder="Enter CV" onblur="validatecv()">
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-sm-12">
+              <label for="rupees"><b><i>TOTAL AMOUNT : </i></b></label>
+              <input type="text" class="form-control sel" id="amount" onblur="validateamount()">
+          </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="offset-sm-4 col-sm-4">
+              <button class="btn btn-default button-order" onclick="validatePay()">PAY</button>
+          </div>
+      </div>
+  </div>
+</form>
+</body>
+</html>

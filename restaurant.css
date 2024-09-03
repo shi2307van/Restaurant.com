@@ -1,0 +1,177 @@
+
+.databody{
+    background-color: black;
+}
+.databack{
+    background-color: Black;
+    color: orangered;
+    margin-top: 30px;
+    margin: 20px;
+    margin-bottom: 0px;
+    font-family: Georgia;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dffmt{
+    height: 660px;
+    width: 99%;
+    background-color: black;
+
+}
+.homebody{
+    background-image: url('./images/resi.jpg');
+    background-size: cover;
+    background-color: black;
+    border: 0px;
+}
+.homeh{
+    margin-top: 120px;
+    margin-left: 300px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 70px;
+}
+.homeh1{
+    margin-top: 100px;
+    margin-left: 600px;
+    color: orangered;
+    font-family: georgia;
+}
+.button-home{
+    background-color: orangered;
+    color: white;
+    font-size: 30px;
+    margin-left: 700px;
+    font-weight: bold;
+    margin-top: 60px;
+    font-family: georgia;
+}
+.feedbody{
+    background-color: black;
+    padding: 50px;
+    margin-top: 0px;
+}
+.fbcontainer{
+    height: 800px;
+    width: 900px;
+    border:10px solid orangered;
+    padding: 30px;
+}
+.fmtheading{
+    color:orangered;
+    font-size: 40px;
+    font-family: georgia;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.fblabels{
+    font-family: georgia;
+    font-size: 26px;
+    padding: 0px;
+    color: orangered;
+    font-weight: bold;
+}
+.button-fb{
+    background-color: orangered;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: georgia;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+.orderbody{
+    background-color:black;
+    color:orangered;
+    font-size:20px;
+    font-family: georgia;
+    margin-left: 50px;
+    padding: 40px
+    }
+.forml{
+    border:3px solid orangered;
+    font-size:20px;
+    height:30px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+.cont{
+    background-color:darkgray;
+    border:10px solid orangered;
+    width: 1020;
+    margin-bottom: 20px;
+    padding: 30px;
+    }
+.orderh3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.button-order{
+    background-color: orangered;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: georgia;
+    margin-left: 80px;
+    margin-top: 40px;
+    width: 200px;
+}
+.heading{
+    font-family: 'Georgia';
+    font-weight: bold;
+    color: orangered;
+    margin: auto;
+    margin-top: 40px;
+}
+.subhead{
+    font-family: 'Arial';
+    font-weight: bold;
+    color: darkgray;
+    margin-left: 5%;
+    height: 30px;
+}
+.content{
+    padding: 5%;
+    background-color: rgb(235, 235, 235);
+}
+
+.sel{
+    border:3px solid orangered;
+    height:45px;
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cnbody{
+    background-color:black;
+    margin-top: 30px;
+    font-family: 'georgia';
+    font-weight: bold;
+
+}
+.cnfmtlabel{
+    margin-top: 0px;
+    padding: 10px;
+    font-family:'georgia';
+    font-size: small;
+    font-weight: bold;
+    color: orangered;
+}
+
+ .cnformat{
+    background-color:darkgray;
+    font-family:'georgia';
+    font-weight: bold;
+    padding: 20px;
+    width:900px;
+    height: 600px;
+    margin: auto;
+    color: orangered;
+ }
+ .imghw{
+     height: 50px;
+     width: 50px;
+ }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="restaurant.css" type="text/css">
+    <script src="order.js" type="text/javascript"></script>
+</head>
+
+<body class="orderbody">
+    <form id="order" method="POST" action="pyment.html">
+        <div class="container cont">
+            <div class="row">
+                <h3 class="orderh3"> ENTER ORDER DETAILS</h3>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="name"><b><i>NAME : </i></b></label>
+                    <input type="text" id="name" class="form-control forml" placeholder=" Enter Your Name" required>
+                </div>
+                <div class="col-sm-6">
+                    <label for="cemail"><b><i>EMAIL : </i></b></label>
+                    <input type="email" id="cemail" class="form-control forml " placeholder=" Enter Your Email ID" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <label for="itname"><b><i>ITEM NAME : </b></i></label>
+                    <select class="form-control sel" id="itname">
+                        <optgroup label="Starters">
+                          <option>Salad</option>
+                          <option>Soup</option>
+                          <option>Garlic Bread</option>
+                          <option>Spring Roll</option>
+                        </optgroup>
+                        <optgroup label="Main menu">
+                          <option>Pizza</option>
+                          <option>Burger</option>
+                          <option>Pasta</option>
+                          <option>Manchurian</option>
+                        </optgroup>
+                        <optgroup label="Desserts">
+                          <option>Vanilla Ice-cream</option>
+                          <option>Apple Pie</option>
+                        </optgroup>
+                        <optgroup label="Drinks">
+                          <option>Coffee</option>
+                          <option>Green Tea</option>
+                        </optgroup>
+                      </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="mobno"><b><i>MOBILE NO : </b></i></label>
+                    <input type="text" id="mobno" class="form-control forml" placeholder="Enter Your Mobile Number" onblur="validateno()" required>
+                </div>
+                <div class="col-sm-6">
+                    <label for="qty"><b><i>QUANTITY : </b></i></label>
+                    <select class="form-control sel" id="qty" type="number">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <label for="add"><b><i>ADDRESS: </b></i></label>
+                    <textarea class="form-control forml" rows="2" id="add" required></textarea>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4">
+                    <button type="submit" class="btn btn-default button-order" onsubmit="validateOrder()">ORDER</button>
+                </div>
+            </div>
+
+            <br>
+        </div>
+
+    </form>
+</body>
+</html>
